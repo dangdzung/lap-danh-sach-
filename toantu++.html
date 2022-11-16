@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="so1">
+    <input type="text" id="so2 ">
+    <button type="button" onclick="tinhtong()">tinh tong</button>
+    <button type="button" onclick="tinhhieu()">tinh hieu</button>
+    <p id="kq"></p>
+    <input type="text" id="ikq">
+    <script>
+        <input type="text" id="st1">
+    <input type="text" id="st2">
+    <button type="button" onclick="tinhtong()">Tính tổng</button>
+    <p id="kq"></p>
+    <input type="text" id="ikq">
+
+    <script>
+        function tinhtong() {
+            let n1 = +document.getElementByID('st1').value
+            let n2 = +document.getElementByID('st2').value
+            document.getElementById('kq').innerHTML = n1 + n2            
+            document.getElementById('ikq').value = n1 + n2
+         }
+
+           
+    </script>
+</body>
+</html>
