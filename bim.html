@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="x">
+    <input type="text" id="g">
+    <button onclick="tinh()">tinh</button>
+    <h3 id="a"></h3>
+    <script>
+        function tinh(){
+            let cannang =document.getElementById('x').value;
+            let chieucao=document.getElementById('g').value;
+            let bmi= cannang/(chieucao*chieucao);
+        }
+    </script>
+</body>
+</html>
